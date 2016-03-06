@@ -35,6 +35,7 @@ brew cask install 1password
 brew cask install google-chrome
 brew cask install google-hangouts
 brew cask install caffeine
+brew cask install imageoptim
 
 # *** BEGIN SDK's & Runtimes ***
 # install Go-lang
@@ -57,7 +58,7 @@ echo "set clipboard=unnamed" >> ~./.vimrc
 brew cask install visual-studio-code
 # Misc other tools
 brew install openssh
-brew cask install imageoptim
+brew install glide
 
 
 # *** BEGIN Settings ***
