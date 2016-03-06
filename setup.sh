@@ -33,6 +33,7 @@ brew cask install gitter
 brew cask install spectacle
 brew cask install 1password
 brew cask install google-chrome
+brew cask install google-hangouts
 brew cask install caffeine
 
 # *** BEGIN SDK's & Runtimes ***
