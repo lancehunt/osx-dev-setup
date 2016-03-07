@@ -39,6 +39,7 @@ brew cask install caffeine
 brew cask install imageoptim
 brew cask install snagit
 brew cask install screenhero
+brew install htop
 
 # *** BEGIN SDK's & Runtimes ***
 # install Go-lang
@@ -63,6 +64,7 @@ brew cask install visual-studio-code
 brew install openssh
 brew install glide
 brew cask install charles
+brew cask install mou
 
 # *** BEGIN Settings ***
 #Set a blazingly fast keyboard repeat rate
