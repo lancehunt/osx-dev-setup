@@ -13,6 +13,7 @@ brew doctor
 
 # install cask
 brew install cask
+brew tap caskroom/versions
 
 # *** BEGIN Configuring ***
 
@@ -36,6 +37,8 @@ brew cask install google-chrome
 brew cask install google-hangouts
 brew cask install caffeine
 brew cask install imageoptim
+brew cask install snagit
+brew cask install screenhero
 
 # *** BEGIN SDK's & Runtimes ***
 # install Go-lang
@@ -59,7 +62,7 @@ brew cask install visual-studio-code
 # Misc other tools
 brew install openssh
 brew install glide
-
+brew cask install charles
 
 # *** BEGIN Settings ***
 #Set a blazingly fast keyboard repeat rate
