@@ -94,7 +94,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 pbcopy < ~/.ssh/id_rsa.pub
 
-# Notify Uesr of things that could not be installed
+# Notify User of things that could not be installed
 brew cask install remote-desktop-connection
 echo "WARN: Must be installed via: https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12"
 
