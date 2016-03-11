@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# *** Install HomeBrew ***
+echo "Installing HomeBrew and Cask"
 
 # Ask for the administrator password upfront.
 sudo -v
