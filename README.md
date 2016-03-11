@@ -3,7 +3,7 @@ Bash script to automate setting up a new Mac from scratch
 
 # Quickstart
 ```
-$ cd ~; curl -#L https://github.com/lancehunt/dev-setup/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,LICENSE,CREDITS.md}
+$ cd ~; curl -#L https://github.com/lancehunt/osx-dev-setup/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,LICENSE,CREDITS.md}
 ```
 
 # Usage
