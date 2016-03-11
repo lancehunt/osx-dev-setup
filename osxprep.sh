@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+#!/bin/bash
+
+echo "Preparing OSX for future installs."
+
 # Ask for the administrator password upfront
 sudo -v
 
