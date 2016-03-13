@@ -9,6 +9,8 @@ if test ! $(which brew); then
   exit 255
 fi
 
+sudo -v
+
 # *** BEGIN SDK's & Runtimes ***
 # install Go-lang
 brew cask install go
@@ -28,8 +30,11 @@ cp /usr/local/share/vim/vim74/vimrc_example.vim ~/.vimrc
 echo "set clipboard=unnamed" >> ~./.vimrc
 # Install VSCode
 brew cask install visual-studio-code
+# Install Atom (still deciding which I prefer)
+brew cask install atom
 # Misc other tools
-brew install openssh
+brew install openssl --with-engine --with-cast
+#brew install openssh@6.8 --with-keychain-support
 brew install glide
 brew cask install charles
 brew cask install mou

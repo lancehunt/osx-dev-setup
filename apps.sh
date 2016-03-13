@@ -9,12 +9,6 @@ if test ! $(which brew); then
   exit 255
 fi
 
-# install Config Manager (for dotfiles)
-brew install vcsh
-
-# install Multiple Repository management tool
-brew install mr
-
 # *** BEGIN Apps ***
 brew cask install iterm2
 brew cask install dropbox 
