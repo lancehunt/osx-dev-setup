@@ -103,7 +103,7 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 endif
 filetype plugin on
-filetype indent plugin on
+" filetype indent plugin on
 syntax enable  
 set number  
 let g:go_disable_autoinstall = 0
