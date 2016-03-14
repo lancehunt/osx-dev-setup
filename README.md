@@ -3,19 +3,19 @@ Bash script to automate setting up a new Mac from scratch
 
 # Quickstart
 ```
-$ cd ~; curl -#L https://github.com/lancehunt/osx-dev-setup/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,LICENSE,CREDITS.md}
+$ cd ~; git clone https://github.com/lancehunt/osx-dev-setup.git 
 ```
 
 # Usage
 
 ```
-./init all
+./setup.sh all
 ```
 
-OR, to run just 1 script (brew in this case):
+OR, run just 1 script (brew in this case):
 
 ```
-./init brew
+./setup.sh brew
 ```
 
 # Available Scripts
