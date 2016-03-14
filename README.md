@@ -3,7 +3,7 @@ Bash script to automate setting up a new Mac from scratch
 
 # Quickstart
 ```
-$ cd ~; git remote add origin https://github.com/lancehunt/osx-dev-setup.git; git fetch; git reset --hard origin/master;
+$ cd ~; git init; git remote add origin https://github.com/lancehunt/osx-dev-setup.git; git fetch; git reset --hard origin/master;
 ```
 
 # Usage
@@ -18,9 +18,10 @@ OR, run just 1 script (brew in this case):
 ./setup.sh brew
 ```
 
-# Available Scripts
+# Available Setup Scripts
 
 * `osxprep.sh` minimum requirements setup before other scripts are run
+* `brew.sh` setup brew and cask for installing apps and tools
 * `osx.sh` change osx default settings and install updates
 * `apps.sh` install my prefered apps
 * `dev-tools.sh` install everything I need to start developing with my preferred languages
