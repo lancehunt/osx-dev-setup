@@ -3,7 +3,7 @@ Bash script to automate setting up a new Mac from scratch
 
 # Quickstart
 ```
-$ cd ~; git clone https://github.com/lancehunt/osx-dev-setup.git 
+$ cd ~; git remote add origin https://github.com/lancehunt/osx-dev-setup.git; git fetch; git reset --hard origin/master;
 ```
 
 # Usage

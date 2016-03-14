@@ -18,7 +18,7 @@ function runInit() {
             echo "Cloning the osx-dev-setup repo to your local machine."
             echo "------------------------------"
             echo ""
-            cd ~ && git clone https://github.com/lancehunt/osx-dev-setup.git
+            cd ~ && git init; git remote add origin https://github.com/lancehunt/osx-dev-setup.git; git fetch; git reset --hard origin/master
         fi
         if [ $ARG == "all" ]; then
             echo "------------------------------"
