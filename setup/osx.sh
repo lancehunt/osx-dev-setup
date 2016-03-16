@@ -23,7 +23,7 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 12
 #Show the ~/Library folder
 chflags nohidden ~/Library
 #Store screenshots in subfolder on desktop
-mkdir ~/Desktop/Screenshots
+mkdir -p ~/Desktop/Screenshots
 defaults write com.apple.screencapture location ~/Desktop/Screenshots
 
 # Enable "Tap to Click".

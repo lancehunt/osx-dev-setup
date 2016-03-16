@@ -46,8 +46,9 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
-export GOPATH=$HOME/Repos/go
+export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/bin:/usr/local/go/bin:$GOPATH/bin
+
 export NVM_DIR=~/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 alias ll='ls -lG'

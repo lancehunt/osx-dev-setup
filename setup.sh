@@ -24,6 +24,7 @@ function runInit() {
             echo "------------------------------"
             echo "Attempting Full Setup!"
             echo "------------------------------"
+	    ./all.sh
         fi
         if [ $ARG != "all" ]; then
             echo "------------------------------"

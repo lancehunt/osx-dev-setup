@@ -37,5 +37,10 @@ brew install openssl --with-engine --with-cast
 #brew install openssh@6.8 --with-keychain-support
 brew install glide
 brew cask install charles
-brew cask install mou
+brew cask install eou
+
+brew cask install git
+brew cask install tcl
+
+source ~/.bashrc
 
