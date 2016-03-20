@@ -18,6 +18,9 @@ export $GOPATH=$HOME/go
 
 # install Node Version Manager (NVM)
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+nvm install v4.4.0
+npm install -g npm
+
 
 
 # *** BEGIN Dev Tools ***
@@ -48,6 +51,10 @@ brew update
 brew install dnvm
 source dnvm.sh
 dnvm upgrade
+
+# Install ASPNET 5 tools
+npm install -g generator-aspnet
+npm install -g yo gulp
 
 source ~/.bashrc
 
