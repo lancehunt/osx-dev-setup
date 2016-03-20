@@ -42,5 +42,12 @@ brew cask install eou
 brew cask install git
 brew cask install tcl
 
+# *** BEGIN DNX Install ***
+brew tap aspnet/dnx
+brew update
+brew install dnvm
+source dnvm.sh
+dnvm upgrade
+
 source ~/.bashrc
 

@@ -53,4 +53,6 @@ export NVM_DIR=~/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 alias ll='ls -lG'
 
-[ -s "/Users/master/.dnx/dnvm/dnvm.sh" ] && . "/Users/master/.dnx/dnvm/dnvm.sh" # Load dnvm
+[ -s "$HOME/.dnx/dnvm/dnvm.sh" ] && . "$HOME/.dnx/dnvm/dnvm.sh" # Load dnvm
+source dnvm.sh
+
