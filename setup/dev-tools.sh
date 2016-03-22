@@ -41,7 +41,7 @@ brew install openssl --with-engine --with-cast
 brew install glide
 brew cask install charles
 brew cask install eou
-
+brew install jq
 brew cask install git
 brew cask install tcl
 
