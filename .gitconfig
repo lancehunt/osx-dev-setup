@@ -127,6 +127,7 @@ up = "!git remote update -p; git merge --ff-only @{u}"
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+	tool = kdiff3
 
 [push]
 
